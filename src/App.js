@@ -19,21 +19,20 @@ function App() {
 
   const [userInfo, setUserInfo] = useState({});
 
+  // Get JWT from TOQIO
   useEffect(() => {
     window.addEventListener("message", function (event) {
-      const origin = event.origin || event.originalEvent.origin;
-
-      // If the origin is not TOQIO we ignore the message
-      // if (origin !== /*the container's domain url*/)
-      //   return;
-
-      // If it is a JWT event
-      if (event.data.id === 'toqio-jwt') {
-        // Handle jwt
+      // If it is not a JWT event we do nothing
+      if (event?.data?.id !== 'toqio-jwt') {
+        return;
+      } else if (event?.data?.jwt) {
         setUserInfo(jwt_decode(event.data.jwt))
       }
     });
+
   }, []);
+
+
 
   return (
     <div className="app-container">
