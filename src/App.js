@@ -26,7 +26,7 @@ function App() {
       if (event?.data?.id !== 'toqio-jwt') {
         return;
       } else if (event?.data?.jwt) {
-        setUserInfo(jwt_decode(event.data.jwt))
+        setUserInfo(jwt_decode(event.data.jwt));
       }
     });
 
@@ -46,7 +46,7 @@ function App() {
       {!isEmpty(userInfo) &&
         <FeedbackNotification
           className="feedback-notification"
-          message="The connexion has been established. You can start using your JWT"
+          message="The connexion has been established. You can start using your JWT!"
           onClose={() => { }}
           variant="success"
         />
@@ -56,7 +56,7 @@ function App() {
       {isEmpty(userInfo) &&
         <FeedbackNotification
           className="feedback-notification"
-          message="Sorry, the conexion has failed"
+          message="Sorry, the conexion has failed."
           onClose={() => { }}
           variant="error"
         />
