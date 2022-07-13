@@ -53,14 +53,14 @@ function App() {
       }
 
       {/* CONEXION ERROR */}
-      {isEmpty(userInfo) &&
+      {/* {isEmpty(userInfo) &&
         <FeedbackNotification
           className="feedback-notification"
           message="Sorry, the conexion has failed."
           onClose={() => { }}
           variant="error"
         />
-      }
+      } */}
 
       {/* INFO PANEL */}
       <DataPanel>
