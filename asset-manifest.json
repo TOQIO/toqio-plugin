@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.0bc96959.chunk.css",
-    "main.js": "/static/js/main.b10250c5.chunk.js",
-    "main.js.map": "/static/js/main.b10250c5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a8c34b8f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a8c34b8f.js.map",
-    "static/js/2.925c1b0a.chunk.js": "/static/js/2.925c1b0a.chunk.js",
-    "static/js/2.925c1b0a.chunk.js.map": "/static/js/2.925c1b0a.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.0bc96959.chunk.css.map": "/static/css/main.0bc96959.chunk.css.map",
-    "static/js/2.925c1b0a.chunk.js.LICENSE.txt": "/static/js/2.925c1b0a.chunk.js.LICENSE.txt"
+    "main.css": "/toqio-plugin/static/css/main.0bc96959.chunk.css",
+    "main.js": "/toqio-plugin/static/js/main.b10250c5.chunk.js",
+    "main.js.map": "/toqio-plugin/static/js/main.b10250c5.chunk.js.map",
+    "runtime-main.js": "/toqio-plugin/static/js/runtime-main.327b8d96.js",
+    "runtime-main.js.map": "/toqio-plugin/static/js/runtime-main.327b8d96.js.map",
+    "static/js/2.00123edc.chunk.js": "/toqio-plugin/static/js/2.00123edc.chunk.js",
+    "static/js/2.00123edc.chunk.js.map": "/toqio-plugin/static/js/2.00123edc.chunk.js.map",
+    "index.html": "/toqio-plugin/index.html",
+    "static/css/main.0bc96959.chunk.css.map": "/toqio-plugin/static/css/main.0bc96959.chunk.css.map",
+    "static/js/2.00123edc.chunk.js.LICENSE.txt": "/toqio-plugin/static/js/2.00123edc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a8c34b8f.js",
-    "static/js/2.925c1b0a.chunk.js",
+    "static/js/runtime-main.327b8d96.js",
+    "static/js/2.00123edc.chunk.js",
     "static/css/main.0bc96959.chunk.css",
     "static/js/main.b10250c5.chunk.js"
   ]
